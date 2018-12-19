@@ -1,6 +1,7 @@
-[laravel-devtool使い方](#laravel-devtool使い方)
-[laravel-devtool 사용법](#laravel-devtool-사용법)
-[how to use laravel-devtool](#how-to-use-laravel-devtool)
+## document
+- [laravel-devtool使い方](#laravel-devtool使い方)
+- [laravel-devtool 사용법](#laravel-devtool-사용법)
+- [how to use laravel-devtool](#how-to-use-laravel-devtool)
 
 ## laravel-devtool使い方
 Laradockとアンシブル(Ansible)を使って仮想マシン(guest system)にララベル(Laravel)開発環境を構成したレポジトリ(Repository)です。
