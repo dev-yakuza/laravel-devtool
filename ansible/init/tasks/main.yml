@@ -1,0 +1,33 @@
+- name: Make app directory
+  file: path=/var/www state=directory mode=0755
+
+- name: Symbolic link
+  file: src=/vagrant dest=/var/www/vhosts state=link
+
+- name: Set timezone to Asia/Tokyo
+  timezone:
+    name: Asia/Tokyo
+
+- name: Update and upgrade apt packages
+  become: true
+  apt:
+    upgrade: yes
+    update_cache: yes
+    cache_valid_time: 86400
+
+- name: Add python3.6 repo
+  apt_repository:
+    repo: 'ppa:jonathonf/python-3.6'
+
+- name: Install basic packages
+  become: true
+  apt:
+    pkg:
+      - git
+      - unzip
+      - python3.6
+      - python-pip
+      - python3-pip
+      - fabric
+    state: present
+    update_cache: yes
