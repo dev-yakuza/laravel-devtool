@@ -1,4 +1,8 @@
-## laravel-devtool使い方 [JA]
+[laravel-devtool使い方](#laravel-devtool使い方)
+[laravel-devtool 사용법](#laravel-devtool-사용법)
+[how to use laravel-devtool](#how-to-use-laravel-devtool)
+
+## laravel-devtool使い方
 Laradockとアンシブル(Ansible)を使って仮想マシン(guest system)にララベル(Laravel)開発環境を構成したレポジトリ(Repository)です。
 
 このレポジトリ(Repository)は下記の内容でララベル(Laravel)の環境を作ります。
@@ -59,7 +63,7 @@ composer create-project laravel/laravel app
 - アンシブル&ララベル: [https://dev-yakuza.github.io/environment/ansible-laravel/](https://dev-yakuza.github.io/environment/ansible-laravel/){:target="_blank"}
 
 
-## laravel-devtool 사용법 [KO]
+## laravel-devtool 사용법
 Laradock과 앤서블(Ansible)을 이용하여 가상 머신(guest system)에 라라벨(Laravel) 개발 환경을 구성한 저장소(Repository)입니다.
 
 이 저장소(Repository)는 아래에 내용으로 라라벨(Laravel) 환경을 구성합니다.
@@ -120,7 +124,7 @@ composer create-project laravel/laravel app
 - 앤서블&라라벨: [https://dev-yakuza.github.io/ko/environment/ansible-laravel/](https://dev-yakuza.github.io/ko/environment/ansible-laravel/){:target="_blank"}
 
 
-## how to use laravel-devtool [en]
+## how to use laravel-devtool
 this repository makes Laravel development environment by using Laradock and Ansible.
 
 this repository makes Laravel development environment by configured belows.
