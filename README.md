@@ -27,8 +27,7 @@ Laradockとアンシブル(Ansible)を使って仮想マシン(guest system)に�
 
 virtualboxとvagrantのインストール方法は下記のブログを参考してください。
 
-- <a href="" target="_blank">https://dev-yakuza.github.io/ko/environment/vagrant-install-and-usage</a>(https://dev-yakuza.github.io/ko/environment/vagrant-install-and-usage/){:target="_blank"}
-
+- <a href="" target="_blank">https://dev-yakuza.github.io/ko/environment/vagrant-install-and-usage</a>
 
 ### 使い方
 laravel-devtoolのレポジトリ(Repository)をコピー(clone)します。.
