@@ -1,0 +1,8 @@
+---
+- name: Unarchive ngrok
+  become: true
+  unarchive:
+    src: ngrok.zip
+    dest: /vagrant
+  tags:
+    - ngrok

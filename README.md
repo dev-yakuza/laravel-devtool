@@ -55,6 +55,31 @@ composer create-project laravel/laravel app
 
 既存のララベル(Laravel)プロジェクトがある方は```app```フォルダにプロジェクトをコピーして使ってください。
 
+#### ngrok
+外部で仮想環境(Guest System)へ接続するため```ngrok```を使えることができます。
+
+```bash
+# vagrant up
+vagrant ssh
+# sudo ansible-playbook /vagrant/ansible/playbook.yml --tags 'ngrok'
+cd /vagrant/
+./ngrok http -region=ap 80
+```
+
+上のようにngrokを実行したら下記のような画面が見えます。
+
+```
+Session Status                online
+Session Expires               7 hours, 59 minutes
+Version                       2.2.8
+Region                        Asia Pacific (ap)
+Web Interface                 http://127.0.0.1:4040
+Forwarding                    http://cf354047.ap.ngrok.io -> localhost:80
+Forwarding                    https://cf354047.ap.ngrok.io -> localhost:80
+```
+
+ここに見える```Forwarding```のURLを使ったら外部から仮装環境(Guest System)に接続できます。これはテスト、開発のためですので開発、テストする時だけ使ってください。
+
 ### 確認
 ララベル(Laravel)プロジェクトは```localhost```で接続できます。phpmyadminは```localhost:8080```で接続できます。
 
@@ -116,6 +141,32 @@ composer create-project laravel/laravel app
 
 기존에 라라벨(Laravel) 프로젝트를 가지고 계신 분들은 ```app``` 폴더에 프로젝트를 복사하여 사용하십시오.
 
+#### ngrok
+외부에서 가상 머신(Guest System)에 접근하기 위해 ```ngrok```를 사용하실 수 있습니다.
+
+```bash
+# vagrant up
+vagrant ssh
+# sudo ansible-playbook /vagrant/ansible/playbook.yml --tags 'ngrok'
+cd /vagrant/
+./ngrok http -region=ap 80
+```
+
+위와 같이 ngrok를 실행하면 아래와 같은 화면이 보입니다.
+
+```
+Session Status                online
+Session Expires               7 hours, 59 minutes
+Version                       2.2.8
+Region                        Asia Pacific (ap)
+Web Interface                 http://127.0.0.1:4040
+Forwarding                    http://cf354047.ap.ngrok.io -> localhost:80
+Forwarding                    https://cf354047.ap.ngrok.io -> localhost:80
+```
+
+여기서 보이는 ```Forwarding``` URL을 사용하여 외부에서 가상 환경(Guest System)에 접속이 가능합니다. 어디까지나 테스트용이므로 개발이나 테스트할 때에만 사용하시기 바랍니다.
+
+
 ### 확인
 라라벨(Laravel) 프로젝트는 ```localhost```로 접근이 가능하며 phpmyadmin은 ```localhost:8080``` 접근이 가능합니다.
 
@@ -176,6 +227,31 @@ composer create-project laravel/laravel app
 ```
 
 if you already have Laravel project, copy your project to ```app``` folder.
+
+#### ngrok
+you can use ```ngrok`` to access Guest System from outside.
+
+```bash
+# vagrant up
+vagrant ssh
+# sudo ansible-playbook /vagrant/ansible/playbook.yml --tags 'ngrok'
+cd /vagrant/
+./ngrok http 80
+```
+
+if you execute above command, you can see below screen.
+
+```
+Session Status                online
+Session Expires               7 hours, 59 minutes
+Version                       2.2.8
+Region                        United States (us)
+Web Interface                 http://127.0.0.1:4040
+Forwarding                    http://69bd767c.ngrok.io -> localhost:80
+Forwarding                    https://69bd767c.ngrok.io -> localhost:80
+```
+
+you can access Guest system by ```Forwarding``` URL in above screen. this is for developing and testing, so use it when you develop or test.
 
 ### check
 you can see Laravel project to access ```localhost``` and see phpmyadmin to access ```localhost:8080```
