@@ -11,6 +11,7 @@ Laradockとアンシブル(Ansible)を使って仮想マシン(guest system)に�
 - mysql
 - phpmyadmin
 - workspace
+- ngrok
 
 ### laravel-devtool設定方法
 このlaravel-devtoolのレポジトリ(Repository)を生成しながら作成したブログがあります。下記のブログを参考してlaravel-devtoolの設定を変更することができます。
@@ -21,6 +22,7 @@ Laradockとアンシブル(Ansible)を使って仮想マシン(guest system)に�
 - アンシブル&ドッカー: <a href="https://dev-yakuza.github.io/environment/ansible-docker/" target="_blank">https://dev-yakuza.github.io/environment/ansible-docker</a>
 - アンシブル&Laradock: <a href="https://dev-yakuza.github.io/environment/ansible-laradock/" target="_blank">https://dev-yakuza.github.io/environment/ansible-laradock</a>
 - アンシブル&ララベル: <a href="https://dev-yakuza.github.io/environment/ansible-laravel/" target="_blank">https://dev-yakuza.github.io/environment/ansible-laravel</a>
+- ngrok: <a href="https://dev-yakuza.github.io/environment/ngrok/" target="_blank">https://dev-yakuza.github.io/environment/ngrok</a>
 
 ### 環境準備
 このlaravel-devtoolを使うためには```virtualbox```と```vagrant(v2.2.1以上)```をローカル(host system)にインストールする必要があります。
@@ -96,6 +98,7 @@ Laradock과 앤서블(Ansible)을 이용하여 가상 머신(guest system)에 �
 - mysql
 - phpmyadmin
 - workspace
+- ngrok
 
 ### laravel-devtool 설정 방법
 laravel-devtool의 저장소(Repository)를 생성하고 구성하며 작성한 블로그가 있습니다. 아래에 블로그를 참고하여 원하는 구성으로 변경하실 수 있습니다.
@@ -106,6 +109,7 @@ laravel-devtool의 저장소(Repository)를 생성하고 구성하며 작성한 
 - 앤서블&도커: <a href="https://dev-yakuza.github.io/ko/environment/ansible-docker/" target="_blank">https://dev-yakuza.github.io/ko/environment/ansible-docker</a>
 - 앤서블&라라독: <a href="https://dev-yakuza.github.io/ko/environment/ansible-laradock/" target="_blank">https://dev-yakuza.github.io/ko/environment/ansible-laradock</a>
 - 앤서블&라라벨: <a href="https://dev-yakuza.github.io/ko/environment/ansible-laravel/" target="_blank">https://dev-yakuza.github.io/ko/environment/ansible-laravel</a>
+- ngrok: <a href="https://dev-yakuza.github.io/ko/environment/ngrok/" target="_blank">https://dev-yakuza.github.io/ko/environment/ngrok</a>
 
 ### 환경 준비
 laravel-devtool을 사용하기 위해서는 ```virtualbox```와 ```vagrant(v2.2.1이상)```를 로컬 머신(host system)에 설치하셔야 합니다.
@@ -183,6 +187,7 @@ this repository makes Laravel development environment by configured belows.
 - mysql
 - phpmyadmin
 - workspace
+- ngrok
 
 ### laravel-devtool settings
 we've written blogs while we were making laravel-devtool repository. if you want to change settings, see below blogs to get how to modify configurations.
@@ -193,6 +198,7 @@ we've written blogs while we were making laravel-devtool repository. if you want
 - Ansible&Docker: <a href="https://dev-yakuza.github.io/en/environment/ansible-docker/" target="_blank">https://dev-yakuza.github.io/en/environment/ansible-docker</a>
 - Ansible&Laradock: <a href="https://dev-yakuza.github.io/en/environment/ansible-laradock/" target="_blank">https://dev-yakuza.github.io/en/environment/ansible-laradock</a>
 - Ansible&Laravel: <a href="https://dev-yakuza.github.io/en/environment/ansible-laravel/" target="_blank">https://dev-yakuza.github.io/en/environment/ansible-laravel</a>
+- ngrok: <a href="https://dev-yakuza.github.io/en/environment/ngrok/" target="_blank">https://dev-yakuza.github.io/en/environment/ngrok</a>
 
 ### prepare the environment
 you need to install ```virtualbox``` and ```vagrant(upper than v2.2.1)``` at your local machine(host system) to use laravel-devtool repository.
